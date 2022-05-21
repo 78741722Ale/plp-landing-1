@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="site_footer">
         SiteFooter
     </div>
 </template>

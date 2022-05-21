@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="site_header">
         SiteHeader
     </div>
 </template>
@@ -13,4 +13,5 @@ export default {
 <style lang="scss" scoped>
 /* Import del foglio di stile */
 @import '@/assets/sass/partials/header.scss';
+
 </style>

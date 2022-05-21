@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="site_main">
         SiteMain
     </div>
 </template>

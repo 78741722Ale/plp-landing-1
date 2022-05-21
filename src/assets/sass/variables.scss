@@ -1,1 +1,54 @@
 /* Palette colori figma */
+$header-bg-color : rgba(30, 30, 30, 1);
+$header-form-bg-color : rgba(52, 52, 52, 1);
+$header-title-color : rgba(254, 254, 254, 1);
+$header-span-color: rgba(176, 176, 176, 1);
+$CTA-bg-color: rgba(87, 82, 206, 1); // valid for CTA header & footer
+$CTA-text-color:rgba(254, 254, 254, 1); // valid for CTA header & footer
+
+/* Dimensioni container - root component */
+:root {
+    --header_h: 420px;
+    --header_w: 100%;
+    --main_h: 1580px;
+    --main_w: 100%;
+    --footer_w : 100%;
+    --footer_h : 450px;
+}
+
+/* Components */
+
+#site_header {
+    width: var(--header_w);
+    height: var(--header_h);
+    background-color: $header-bg-color;
+}
+
+#site_main {
+    width: var(--main_w);
+    height: var(--main_h);
+    background-color: brown;
+}
+
+#site_footer {
+    width: var(--footer_w);
+    height: var(--footer_h);
+    background-color: rgb(35, 245, 16);
+}
+
+/* Utilities classes */
+.bordo {
+    border: 2px solid black;
+}
+/* Flex center center */
+.flex_cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Flex between center */
+.flex_bet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
