@@ -5,6 +5,12 @@ $header-title-color : rgba(254, 254, 254, 1);
 $header-span-color: rgba(176, 176, 176, 1);
 $CTA-bg-color: rgba(87, 82, 206, 1); // valid for CTA header & footer
 $CTA-text-color:rgba(254, 254, 254, 1); // valid for CTA header & footer
+$image_component-bg : rgba(28, 254, 254, 0.79);
+$app_component-bg : rgba(87, 234, 19, 0.77);
+$player_component-bg : rgba(248, 95, 9, 0.7);
+$reference_component-bg : rgba(231, 251, 8, 0.69);
+
+
 
 /* Dimensioni container - root component */
 :root {
@@ -12,23 +18,55 @@ $CTA-text-color:rgba(254, 254, 254, 1); // valid for CTA header & footer
     --header_w: 100%;
     --main_h: 1580px;
     --main_w: 100%;
+    --image_component_w : 100%;
+    --image_component_h : 445px;
+    --app_component_w : 100%;
+    --app_component_h : 560px;
+    --player_component_w : 100%;
+    --player_component_h : 230px;  
+    --reference_component_w : 100%;
+    --reference_component_h : 345px;    
     --footer_w : 100%;
     --footer_h : 450px;
 }
 
 /* Components */
-
 #site_header {
     width: var(--header_w);
     height: var(--header_h);
     background-color: $header-bg-color;
 }
 
+/* Sitemain components */
 #site_main {
     width: var(--main_w);
     height: var(--main_h);
     background-color: brown;
 }
+#image_component {
+    width: var(--image_component_w);
+    height: var(--image_component_h);    
+    background-color: $image_component-bg;
+}
+
+#app_component {
+    width: var(--app_component_w);
+    height: var(--app_component_h);    
+    background-color: $app_component-bg;
+}
+
+#player_component {
+    width: var(--player_component_w);
+    height: var(--player_component_h);    
+    background-color: $player_component-bg;
+}
+
+#reference_component {
+    width: var(--reference_component_w);
+    height: var(--reference_component_h);    
+    background-color: $reference_component-bg;
+}
+
 
 #site_footer {
     width: var(--footer_w);
