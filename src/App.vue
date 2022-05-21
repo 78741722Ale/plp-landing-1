@@ -1,28 +1,32 @@
 <template>
+  <!-- MacroComponenti Principali -->
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- Header -->
+    <SiteHeader />
+    <!-- Main -->
+    <SiteMain />
+    <!-- Footer -->
+    <SiteFooter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+/* Import dei macro componenti */
+import SiteHeader from './components/SiteHeader.vue'
+import SiteMain from './components/SiteMain.vue'
+import SiteFooter from './components/SiteFooter.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SiteHeader,
+    SiteMain,
+    SiteFooter
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Foglio di stile principale racchiude ogni foglio di stile*/
+@import '@/assets/sass/style.scss';
 </style>
