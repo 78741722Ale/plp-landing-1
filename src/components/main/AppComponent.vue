@@ -1,6 +1,11 @@
 <template>
     <div id="app_component">
-        App component goes here
+        <!-- Container principale -->
+        <div class="container-xl p-0 flex_cent h-100 bordo">
+            <div class="row h_80 p-0 w-100 bordo">
+                App component
+            </div>
+        </div>
     </div>
 </template>
 
