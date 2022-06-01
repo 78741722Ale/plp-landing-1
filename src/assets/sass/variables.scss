@@ -91,16 +91,29 @@ $footer-bg-color : rgba(30, 30, 30, 1);
 .h_60{
     height: 60%;
 }
-
-/* Fixed Width */
+/* Fixed Heigth - app component zone 1-2-3-4 */
+.h_30 {
+    height: 30%;
+}
+/* Fixed Width (Image Component) */
 .w_32 {
     width: 32% !important;
 }
+
+
+
+
+
 
 /* Background color for verify cont and row */
 .bg_try {
     background-color: cyan;
 }
+
+.bg_altro {
+    background-color: coral;
+}
+
 
 /* Flex center center */
 .flex_cent {
