@@ -14,7 +14,7 @@
                 <div class="col-12 h_60 p-0 ">
                     <!-- Row Interna -->
                     <!-- Sono da Ripetere (le col) in V-for -->
-                    <div class="row-cols-3 w-100 h-100 d-flex justify-content-between align-content-center m-0 p-0 ">
+                    <div class="row-cols-3 w-100 h-100 flex_bet m-0 p-0 ">
                         <!-- First -->
                         <div class="col-auto bg_try w_32 h-100 bordo">1°St</div>
                         <!-- Second -->
