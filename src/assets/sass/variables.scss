@@ -1,3 +1,6 @@
+
+/*#region Palette colori */
+
 /* Palette colori figma */
 $header-bg-color : rgba(30, 30, 30, 1);
 $header-form-bg-color : rgba(52, 52, 52, 1);
@@ -11,6 +14,10 @@ $player_component-bg : rgba(15, 15, 15, 1);
 $reference_component-bg : rgba(255, 255, 255, 1);
 /* Footer Color */
 $footer-bg-color : rgba(30, 30, 30, 1);
+
+/*#endregion */
+
+/*#region Containers Dimensions */
 
 /* Dimensioni container - root component */
 :root {
@@ -29,7 +36,7 @@ $footer-bg-color : rgba(30, 30, 30, 1);
     --footer_h : 890px;
 }
 
-/* Components */
+/* Header Components */
 #site_header {
     width: var(--header_w);
     height: var(--header_h);
@@ -47,42 +54,50 @@ $footer-bg-color : rgba(30, 30, 30, 1);
     height: var(--image_component_h);    
     background-color: $image_component-bg;
 }
-
 #app_component {
     width: var(--app_component_w);
     height: var(--app_component_h);    
     background-color: $app_component-bg;
 }
-
 #player_component {
     width: var(--player_component_w);
     height: var(--player_component_h);    
     background-color: $player_component-bg;
 }
-
 #reference_component {
     width: var(--reference_component_w);
     height: var(--reference_component_h);    
     background-color: $reference_component-bg;
 }
 
+/* Footer Components */
 #site_footer {
     width: var(--footer_w);
     height: var(--footer_h);
     background-color: $footer-bg-color;
 }
+/*#endregion */
+
+/*#region Utilities */
 
 /* Utilities classes */
 .bordo {
     border: 2px solid black;
 }
-
-/* Altezza Fissa 80% */
-.h_80 {
-    height: 80%;
+/* Fixed Heigth */
+.h_85 {
+    height: 85%;
+}
+.h_60{
+    height: 60%;
 }
 
-/* Colore di Background Prova */
+/* Fixed Width */
+.w_32 {
+    width: 32% !important;
+}
+
+/* Background color for verify cont and row */
 .bg_try {
     background-color: cyan;
 }
@@ -99,3 +114,5 @@ $footer-bg-color : rgba(30, 30, 30, 1);
     justify-content: space-between;
     align-items: center;
 }
+
+/*#endregion */
