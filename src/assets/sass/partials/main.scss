@@ -20,8 +20,80 @@
         aspect-ratio: 1 / 1;
         }
     }
-
-    
-    
-
 }
+/*#endregion */
+
+/*#region App Component Class */
+
+#app_component {
+    /* Section Title */
+    h6 {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: $section-title-color;
+    }
+    /* Image Component Title */
+    h2 {
+        font-size: 42px;
+    }
+}
+
+/* Classes for the App component - For the Number in a rounded container */
+.square {
+    width: 55px;
+    height: 55px;
+    border-radius: calc(55px / 2);
+    background-color: $square-app-component-bg;
+    position: relative;
+    /* Numero al suo interno */
+    span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 0.95rem;
+        font-weight: 700;
+    }
+}
+
+.col-9 {
+    /* Span title */
+    .span_title {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: black;
+    }
+    /* Span Text */
+    .span_text {
+        font-size: 0.95rem;
+        color: inherit;
+    }
+}
+
+    /* Left Zone */
+    .zone_1 {
+        text-align: right;
+    }
+    /* Center Zone */
+    .zone_2 {
+        border-radius: 20px;
+        /* Image size */
+        img {
+            width: 100%;
+            height: 100%;
+            object-position: center center;
+            aspect-ratio: 16 / 9;
+            padding: 0;
+            border-radius: 20px;
+            box-shadow: 0 0 10px lightgray;
+        }
+    }
+    /* Rigth Zone */
+    .zone_3 {
+        text-align: left;
+    }
+
+
+/*#endregion */
+

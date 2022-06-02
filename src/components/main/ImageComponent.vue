@@ -10,7 +10,7 @@
                 <!-- Title&Subtitle -->
                 <div class="col-12 h-25 mb-5 flex_cent flex-column">
                     <!-- Title -->
-                    <h2 class="w_60 mb-0 pb-3">Add a reason to look at these images</h2>
+                    <h2 class="w_60 mt-1 mb-0 pb-3">Add a reason to look at these images</h2>
                     <!-- Subtitle -->
                     <span class="w-100">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ea facilis vero, minima doloribus 
@@ -30,7 +30,7 @@
                                 <img src="https://picsum.photos/200" alt="Image">
                             </div>
                             <!-- Under Zone - Text -->
-                            <div class="col-12 pb-2 h-25 flex-column d-flex justify-content-end align-items-start">
+                            <div class="col-12 pb-3 h-25 flex-column d-flex justify-content-end align-items-start">
                                 <h5>Add a catchy headline</h5>
                                 <span>Saggitis non lectus et</span>
                             </div>
@@ -42,7 +42,7 @@
                                 <img src="https://picsum.photos/200" alt="Image">
                             </div>
                             <!-- Under Zone - Text -->
-                            <div class="col-12 pb-2 h-25 flex-column d-flex justify-content-end align-items-start">
+                            <div class="col-12 pb-3 h-25 flex-column d-flex justify-content-end align-items-start">
                                 <h5>Add a catchy headline</h5>
                                 <span>Saggitis non lectus et</span>
                             </div>
@@ -54,7 +54,7 @@
                                 <img src="https://picsum.photos/200" alt="Image">
                             </div>
                             <!-- Under Zone - Text -->
-                            <div class="col-12 pb-2 h-25 flex-column d-flex justify-content-end align-items-start">
+                            <div class="col-12 pb-3 h-25 flex-column d-flex justify-content-end align-items-start">
                                 <h5>Add a catchy headline</h5>
                                 <span>Saggitis non lectus et</span>
                             </div>

@@ -15,6 +15,7 @@ $CTA-input-text-color: rgba(202, 202, 202, 1);
 $section-title-color:rgba(54, 163, 254, 1);
 $image_component-bg : rgba(255, 255, 255, 1);
 $app_component-bg : rgba(251, 251, 251, 1);
+$square-app-component-bg : rgba(244, 244, 244, 1);
 $player_component-bg : rgba(15, 15, 15, 1);
 $reference_component-bg : rgba(255, 255, 255, 1);
 /* Footer Color */
@@ -114,18 +115,6 @@ $footer-form-bg-color : rgba(52, 52, 52, 1);
     width: 80% !important;
 }
 
-
-
-/* Background color for verify cont and row */
-.bg_try {
-    background-color: cyan;
-}
-
-.bg_altro {
-    background-color: coral;
-}
-
-
 /* Flex center center */
 .flex_cent {
     display: flex;
@@ -138,5 +127,37 @@ $footer-form-bg-color : rgba(52, 52, 52, 1);
     justify-content: space-between;
     align-items: center;
 }
+/* Flex Center End */
+.flex_end {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* Flex Center Start */
+.flex_start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.benefit_zone {
+    width: 32%;
+    height: 100%;
+    padding: 0;
+    flex-direction: column;
+    /* Flex direction */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Background color for verify cont and row */
+.bg_try {
+    background-color: cyan;
+}
+
+.bg_altro {
+    background-color: coral;
+}
+
 
 /*#endregion */
