@@ -82,29 +82,41 @@
     }
 }
 
-    /* Left Zone */
-    .zone_1 {
-        text-align: right;
-    }
-    /* Center Zone */
-    .zone_2 {
+/* Left Zone */
+.zone_1 {
+    text-align: right;
+}
+/* Center Zone */
+.zone_2 {
+    border-radius: 20px;
+    /* Image size */
+    img {
+        width: 100%;
+        height: 100%;
+        object-position: center center;
+        aspect-ratio: 16 / 9;
+        padding: 0;
         border-radius: 20px;
-        /* Image size */
-        img {
-            width: 100%;
-            height: 100%;
-            object-position: center center;
-            aspect-ratio: 16 / 9;
-            padding: 0;
-            border-radius: 20px;
-            box-shadow: 0 0 10px lightgray;
-        }
+        box-shadow: 0 0 10px lightgray;
     }
-    /* Rigth Zone */
-    .zone_3 {
-        text-align: left;
-    }
-
-
+}
+/* Rigth Zone */
+.zone_3 {
+    text-align: left;
+}
 /*#endregion */
 
+/*#region Player Component Class */
+
+#player_component {
+    /* Player Icon */
+    .big_icon {
+        font-size: 6.5rem !important;
+        color: white;
+    }
+    /* Subtitle */
+    h5 {
+        color: white;
+    }
+}
+/*#endregion */
