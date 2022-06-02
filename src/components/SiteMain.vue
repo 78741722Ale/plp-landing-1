@@ -30,8 +30,6 @@ export default {
         AppComponent
     }    
 }
-
-
 </script>
 
 <style lang="scss" scoped>
