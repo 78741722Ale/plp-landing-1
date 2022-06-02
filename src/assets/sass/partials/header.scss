@@ -1,0 +1,44 @@
+/* Header Components */
+#site_header {
+    /* brandname title */
+    h3 {
+        color: $header-title-color;
+    }
+    /* Hero title */
+    h1 {
+        color: $header-title-color;
+        font-size: 44px;
+    }
+    /* Subtitle */
+    span {
+        color: $header-span-color;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    /* Form call to action rules */
+    form {
+        background-color: $header-form-bg-color;
+        /* Background&text-color - Input */
+        input {
+            background-color: inherit;
+            color: $CTA-input-text-color;
+            border: 2px solid $CTA-input-border-color;
+            font-size: 0.95rem;
+            width: 80%;
+        }
+        /* text-color - title */
+        h5 {
+            color: $header-title-color;
+        }
+        /* Background&text-color - Button */
+        button {
+            background-color: $CTA-bg-color;
+            color: $CTA-input-text-color;
+            border: none;
+            font-size: 0.95rem;
+            border-radius: 5px;
+            width: 80%;
+        }
+    }
+    
+}
