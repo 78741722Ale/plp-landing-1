@@ -29,6 +29,7 @@ npm run lint
 ```
 npm install bootstrap
 npm install autoprefixer@10.4.5 --save-exact
+npm install @fontsource/ibm-plex-sans-thai
 ```
 
 ### Customize configuration

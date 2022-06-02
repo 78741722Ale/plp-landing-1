@@ -11,7 +11,7 @@
                     <h5>Subtitles goes here</h5>
                 </div>
                 <!-- Call To Action -this is a component, even for Footer site -->
-                <div class="col-6 flex_cent h_60">
+                <div class="col-6 p-4 flex_cent h_60">
                     <form class="h-100 w-75 bg_try flex_cent flex-column bordo" action="#">
                         <!-- Call to action Title -->
                         <h5 class="mb-5 mt-5">Call to action title goes here</h5>
