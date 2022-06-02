@@ -21,6 +21,18 @@
         }
     }
 }
+
+.image_zone {
+    /* p-0 d-flex justify-content-start align-items-center flex-nowrap flex-column */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0;
+}
+
+
 /*#endregion */
 
 /*#region App Component Class */
