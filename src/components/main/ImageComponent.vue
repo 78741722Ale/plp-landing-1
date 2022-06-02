@@ -1,6 +1,6 @@
 <template>
     <div id="image_component">
-        <!-- Container principale -->
+        <!-- Container  -->
         <div :class="container_class">
             <div :class="row_class">
                 <!-- Section Name -->
@@ -44,34 +44,34 @@ export default {
     name:"ImageComponent",
     data() {
         return {
-            /* Classi dinamiche */
+            /* Dynamic class */
             container_class: "container-xl p-0 flex_cent h-100",
             row_class: "row h_85 image_zone w-100",
             row_card_class :"row-cols-3 gap-4 w-100 h-100 flex_cent m-0 p-0",
             single_card_class : "col-auto card_zone w_32 h-100 p-0 flex-column flex-cent",
             card_under_zone : "col-12 pb-3 h-25 flex-column d-flex justify-content-end align-items-start",
-            /* Contenuto Dinamico */
+            /* Dynamic content */
             section_title : "Image",
             title:"Add a reason to look at these images",
             subtitle:" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ea facilis vero, minima doloribus quia reprehenderit modi rerum inventore aliquam quam velit ut perspiciatis fugiat accusamus iste sapiente vel? Quidem molestiae veritatis rerum dicta laboriosam cumque quisquam cum delectus ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio vel repellendus dolorem assumenda maiores dignissimos?",
-            /* Array di oggetto */
+            /* Array */
             card_component : 
             [   
-                /* Prima Card */
+                /* First Card */
                 {
                     img: require("@/assets/img/card_img.jpg"),
                     desc: "Card Image",
                     title: "Add a catchy headline",
                     subtitle: "Saggitis non lectus et"
                 },
-                /* Seconda Card */
+                /* Second Card */
                 {
                     img: require("@/assets/img/card_img.jpg"),
                     desc: "Card Image",
                     title: "Add a catchy headline",
                     subtitle: "Saggitis non lectus et"
                 },
-                /* Terza Card */
+                /* Third Card */
                 {
                     img: require("@/assets/img/card_img.jpg"),
                     desc: "Card Image",

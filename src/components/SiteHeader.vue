@@ -50,4 +50,5 @@ export default {
 /* Import del foglio di stile */
 @import '@/assets/sass/partials/header.scss';
 
+
 </style>

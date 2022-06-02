@@ -21,9 +21,9 @@ $reference_component-bg : rgba(255, 255, 255, 1);
 $reference_component-title-color : rgba(153, 153, 153, 1);
 $reference_name-color : rgba(59, 76, 102, 1);
 $reference_company-bg-color : rgba(244, 244, 244, 1);
-
 /* Footer Color */
 $footer-bg-color : rgba(30, 30, 30, 1);
+$footer-title-color: rgba(254, 254, 254, 1);
 $footer-form-bg-color : rgba(52, 52, 52, 1);
 /*#endregion */
 
@@ -107,9 +107,9 @@ $footer-form-bg-color : rgba(52, 52, 52, 1);
 .h_40 {
     height: 40%;
 }
-/* .h_15 {
+.h_15 {
     height: 15%;
-} */
+}
 
 /* Fixed Width (Image Component) */
 .w_32 {
