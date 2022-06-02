@@ -12,6 +12,7 @@ $CTA-text-color:rgba(254, 254, 254, 1);
 $CTA-input-border-color: rgba(70, 70, 70, 1); 
 $CTA-input-text-color: rgba(202, 202, 202, 1);
 /* Main colors */
+$section-title-color:rgba(54, 163, 254, 1);
 $image_component-bg : rgba(255, 255, 255, 1);
 $app_component-bg : rgba(251, 251, 251, 1);
 $player_component-bg : rgba(15, 15, 15, 1);
@@ -98,12 +99,19 @@ $footer-form-bg-color : rgba(52, 52, 52, 1);
 .h_30 {
     height: 30%;
 }
+
 /* Fixed Width (Image Component) */
 .w_32 {
     width: 32% !important;
 }
 .w_45 {
     width: 45% !important;
+}
+.w_60 {
+    width: 60% !important;
+}
+.w_80 {
+    width: 80% !important;
 }
 
 
