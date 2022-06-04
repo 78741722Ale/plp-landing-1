@@ -46,44 +46,44 @@ $footer-form-bg-color : rgba(52, 52, 52, 1);
     --footer_h : 890px;
 }
 
+/**
+* Mixin required for recalling the measures of the root element
+* $width => Width of the container
+* $height => Height of the container
+* $background => Background Color
+*/
+
+@mixin ContentDimensions($width, $height, $background) {
+    width: $width;
+    height: $height;
+    background-color: $background;
+}
+
 /* Header Components */
 #site_header {
-    width: var(--header_w);
-    height: var(--header_h);
-    background-color: $header-bg-color;
+    @include ContentDimensions(var(--header_w), var(--header_h), $header-bg-color);
 }
 
 /* Sitemain components */
 #site_main {
-    width: var(--main_w);
-    height: var(--main_h);
+    @include ContentDimensions(var(--main_w), var(--main_h), transparent);
 }
 #image_component {
-    width: var(--image_component_w);
-    height: var(--image_component_h);    
-    background-color: $image_component-bg;
+    @include ContentDimensions(var(--image_component_w), var(--image_component_h), $image_component-bg);
 }
 #app_component {
-    width: var(--app_component_w);
-    height: var(--app_component_h);    
-    background-color: $app_component-bg;
+    @include ContentDimensions(var(--app_component_w), var(--app_component_h), $app_component-bg);
 }
 #player_component {
-    width: var(--player_component_w);
-    height: var(--player_component_h);    
-    background-color: $player_component-bg;
+    @include ContentDimensions(var(--player_component_w), var(--player_component_h), $player_component-bg);
 }
 #reference_component {
-    width: var(--reference_component_w);
-    height: var(--reference_component_h);    
-    background-color: $reference_component-bg;
+    @include ContentDimensions(var(--reference_component_w), var(--reference_component_h), $reference_component-bg);
 }
 
 /* Footer Components */
 #site_footer {
-    width: var(--footer_w);
-    height: var(--footer_h);
-    background-color: $footer-bg-color;
+    @include ContentDimensions(var(--footer_w), var(--footer_h), $footer-bg-color);
 }
 /*#endregion */
 
@@ -125,49 +125,47 @@ $footer-form-bg-color : rgba(52, 52, 52, 1);
     width: 80% !important;
 }
 
+/**
+* flexDispose => Mixin for display positioning
+* $display => display flex
+* $justify-content => Positioning along the horizontal axis
+* $align-items => Positioning along the vertical axis
+*/
+@mixin flexDispose($display, $justify-content, $align-items) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+
 /* Flex center center */
 .flex_cent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexDispose(flex, center, center);
 }
+
 /* Flex between center */
-.flex_bet {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.flex_bet {  
+    @include flexDispose(flex, space-between, center);
 }
+
 /* Flex Center End */
 .flex_end {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    @include flexDispose(flex, center, flex-end);
 }
+
 /* Flex Center Start */
 .flex_start {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    @include flexDispose(flex, center, flex-start);
 }
+
+
 .benefit_zone {
     width: 32%;
     height: 100%;
     padding: 0;
-    flex-direction: column;
     /* Flex direction */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    @include flexDispose(flex, space-between, center);
 }
-
-/* Background color for verify cont and row */
-.bg_try {
-    background-color: cyan;
-}
-
-.bg_altro {
-    background-color: coral;
-}
-
 
 /*#endregion */
