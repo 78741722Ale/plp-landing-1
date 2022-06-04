@@ -1,0 +1,30 @@
+
+#reference_component {
+    /* Square for profile picture */
+    .pic_square {
+        width: 125px;
+        height: 125px;
+        border-radius: calc(125px / 2);
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: calc(100% / 2);
+            aspect-ratio: 1 / 1;
+        }
+    }
+    .reference_title {
+        font-size: 2rem;
+        color: $reference_component-title-color;
+        font-style: italic;
+        font-weight: 400;
+        padding-top: 1rem;
+    }
+    .reference_subtitle {
+        font-size: 0.95rem;
+        font-size: 500;
+    }
+
+    .comp_logo {
+        background-color: $reference_company-bg-color;
+    }
+}

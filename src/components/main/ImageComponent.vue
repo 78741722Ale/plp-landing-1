@@ -84,7 +84,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 /* Import of stylesheet */
-@import '@/assets/sass/partials/main.scss';
+@import '@/assets/sass/partials/main/ImageComponent.scss';
 </style>

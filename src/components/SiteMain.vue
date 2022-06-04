@@ -31,8 +31,3 @@ export default {
     }    
 }
 </script>
-
-<style lang="scss" scoped>
-/* Import of stylesheet */
-@import '@/assets/sass/partials/main.scss';
-</style>
